@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+    <div class="pestaña">
+        <button class="pestañaLinks" onclick="openCity(event,'london')">London</button>
+        <button class="pestañaLinks" onclick="openCity(event,'paris')">Paris</button>
+        <button class="pestañaLinks" onclick="openCity(event,'tokyo')">Tokyo</button>
+    </div>
     
+    <div id="london" class="pestañaContent">
+        <h3>London</h3>
+        <p>London es la capital de Inglaterra.</p>
+    </div>
+    <div id="paris" class="pestañaContent">
+        <h3>Paris</h3>
+        <p>Paris es la capital de Francia.</p>
+    </div>
+    <div id="london" class="pestañaContent">
+        <h3>Tokyo</h3>
+        <p>Tokyo es la capital de Japon.</p>
+    </div>
+
+    <script src="js/index.js"></script>
 </body>
 </html>
